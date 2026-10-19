@@ -1,0 +1,58 @@
+# ROS 2 and colcon workspace artifacts
+build/
+install/
+log/
+log_*/
+.colcon/
+
+# CMake and C/C++ build artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+Makefile
+compile_commands.json
+CMakeUserPresets.json
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.gch
+*.d
+*.gcda
+*.gcno
+*.gcov
+
+# Python and pytest caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# ROS tooling and simulator runtime files
+.ros/
+.gazebo/
+*.bag
+*.bag.active
+*.db3
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating-system files
+.DS_Store
+Thumbs.db
