@@ -4,6 +4,8 @@ This ROS 2 package provides the Unitree Go2-W robot description for RViz, robot 
 
 The package contains the robot model and TF publication only. Gazebo plugins, wheel controllers, sensor simulation, and locomotion control belong in the application or simulator that uses this description.
 
+<img width="998" height="526" alt="urdf" src="https://github.com/user-attachments/assets/3c96ae2c-98e5-4eae-9c3f-db2e0ef0f413" />
+
 ## 💻 Installation
 
 Clone this repository into the `src` directory of a ROS 2 workspace. Create a workspace first if you do not already have one:
